@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olubanjo Olukayode - Senior Geologist & Consultant</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="navbar" class="fixed-header">
+    <div class="container">
+      <a href="#home" class="logo">Olubanjo Olukayode</a>
+      
+      <!-- Mobile menu button -->
+      <button id="mobile-menu-btn" class="mobile-menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav id="mobile-nav" class="mobile-nav">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text animate-fade-in">
+          <h1>Geoscience Expertise You Can Rely On</h1>
+          <p>Olubanjo Olukayode — Senior Geologist with over 30 years of experience in mineral
+            exploration, environmental assessments, geophysical surveys, and borehole installations.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Book a Consultation</a>
+            <a href="#services" class="btn-outline border-white text-white">View Services</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-earth-light">
+      <div class="container-section">
+        <h2 class="section-title">About Olubanjo Olukayode</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Olubanjo Olukayode">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>With over three decades of experience in the geoscience field, Olubanjo Olukayode has established himself as a leading expert in geological exploration, environmental assessments, and geophysical surveys across West Africa and beyond.</p>
+            <p>After earning his Master's degree in Geology from the University of Ibadan and a specialized certification in Hydrogeology from Imperial College London, Olubanjo has led numerous groundbreaking projects for both government agencies and private corporations.</p>
+            <p>His extensive field experience spans mineral exploration in challenging terrains, groundwater resource mapping in arid regions, and environmental impact assessments for major infrastructure projects. Olubanjo combines traditional geological methods with modern technology to deliver exceptional results.</p>
+            <div class="stats-container">
+              <div class="stat-box">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Countries</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Corporate Clients</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container-section">
+        <h2 class="section-title">Consulting Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+              </svg>
+            </div>
+            <h3>Geophysical Survey</h3>
+            <p>Comprehensive geophysical surveys using advanced equipment to map subsurface features, identify mineral deposits, and assess ground conditions.</p>
+            <a href="mailto:olubanjoolukayode@gmail.com?subject=Service Request: Geophysical Survey" class="btn-outline">Request Service</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+              </svg>
+            </div>
+            <h3>Geological Mapping & Mineral Exploration</h3>
+            <p>Expert geological field mapping and mineral exploration services to identify and evaluate potential mineral resources and ore deposits.</p>
+            <a href="mailto:olubanjoolukayode@gmail.com?subject=Service Request: Geological Mapping & Mineral Exploration" class="btn-outline">Request Service</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+              </svg>
+            </div>
+            <h3>Environmental & Geochemical Assessments</h3>
+            <p>Detailed environmental impact assessments and geochemical analyses to evaluate soil and water quality, contamination levels, and environmental risks.</p>
+            <a href="mailto:olubanjoolukayode@gmail.com?subject=Service Request: Environmental & Geochemical Assessments" class="btn-outline">Request Service</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3>Borehole Drilling & Water Pump Installation</h3>
+            <p>End-to-end borehole services from site selection and drilling to pump installation and maintenance for reliable water supply solutions.</p>
+            <a href="mailto:olubanjoolukayode@gmail.com?subject=Service Request: Borehole Drilling & Water Pump Installation" class="btn-outline">Request Service</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+              </svg>
+            </div>
+            <h3>Training & Research Support</h3>
+            <p>Professional training programs and research support for geological studies, field techniques, and laboratory analysis methods.</p>
+            <a href="mailto:olubanjoolukayode@gmail.com?subject=Service Request: Training & Research Support" class="btn-outline">Request Service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-earth-light">
+      <div class="container-section">
+        <h2 class="section-title">Experience & Projects</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2015 - Present</div>
+            <h3 class="timeline-title">Principal Consultant</h3>
+            <div class="timeline-org">Geoscience Solutions International</div>
+            <p class="timeline-desc">Leading a team of specialists providing geological consulting services to government agencies and private corporations across West Africa.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2012 - 2015</div>
+            <h3 class="timeline-title">Lead Geologist</h3>
+            <div class="timeline-org">Global Mining Corporation</div>
+            <p class="timeline-desc">Directed mineral exploration projects resulting in the discovery of significant gold deposits in Nigeria's Middle Belt region.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2005 - 2012</div>
+            <h3 class="timeline-title">Senior Environmental Geologist</h3>
+            <div class="timeline-org">African Environmental Research Institute</div>
+            <p class="timeline-desc">Conducted groundwater contamination studies and remediation plans for oil-affected regions in the Niger Delta.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">1998 - 2005</div>
+            <h3 class="timeline-title">Field Operations Manager</h3>
+            <div class="timeline-org">Continental Drilling Services</div>
+            <p class="timeline-desc">Managed borehole drilling operations and supervised installation of water supply systems across rural communities.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">1992 - 1998</div>
+            <h3 class="timeline-title">Research Geologist</h3>
+            <div class="timeline-org">National Geological Survey</div>
+            <p class="timeline-desc">Participated in nationwide geological mapping projects and development of the country's first digital geological database.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-form-container">
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="contact-info-items">
+              <div class="contact-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:olubanjoolukayode@gmail.com">olubanjoolukayode@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+234 XXX XXX XXXX</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+                <div>
+                  <h4>Location</h4>
+                  <p>Lagos, Nigeria</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <div>
+                  <h4>Working Hours</h4>
+                  <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>Olubanjo Olukayode</h2>
+          <p>Senior Geologist & Consultant</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      
+      <hr>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2023</span> Olubanjo Olukayode. All rights reserved.</p>
+        
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/olubanjo-olukayode-6853bbbb" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="mailto:olubanjoolukayode@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
